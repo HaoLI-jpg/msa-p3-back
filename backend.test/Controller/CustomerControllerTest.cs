@@ -19,6 +19,15 @@ namespace xUnitTesting.Controller
         }
 
         [Fact]
+        public void CustomerModel()
+        {
+            CustomerInput data = new() { Email = "test", FirstName = "test", LastName = "test" };
+            Customer input = new() { FirstName = data.FirstName, LastName = data.LastName, Email = data.Email };
+            input.Should().BeEquivalentTo(data);
+
+        }
+
+        [Fact]
         public void CustomerController_GetCustomers_ReturnOk()
         {
             var customerList = A.Fake<List<Customer>>();
@@ -28,7 +37,7 @@ namespace xUnitTesting.Controller
             var result = controller.GetCustomers();
 
             result.Should().NotBeNull();
-            result.Should().BeOfType(typeof(OkObjectResult));
+            result.Should().BeOfType(typeof(OkObjectResult));            
         }
 
         [Fact]
@@ -54,6 +63,9 @@ namespace xUnitTesting.Controller
 
             result.Should().NotBeNull();
             result.Should().BeOfType(typeof(OkObjectResult));
+
+            var getCustomers = controller.GetCustomers();
+            getCustomers.Should().NotBeNull();
 
         }
 

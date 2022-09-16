@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{1A1A8D8B-AFDB-42DA-AD61-BE9EFB579BBB}|backend_p3">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="backend.test/Controller/CustomerControllerTest.cs">
+    <Files>
+      <File FileName="backend.test/Usings.cs" Line="1" Column="1" />
+      <File FileName="backend.test/Controller/CustomerControllerTest.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="backend" expanded="True">
+            <Node name="backend" expanded="True" />
+            <Node name="backend.test" expanded="True">
+              <Node name="Controller" expanded="True">
+                <Node name="CustomerControllerTest.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="backend" expanded="True">
+            <Node name="backend.test" expanded="True">
+              <Node name="backend.test" expanded="True" />
+              <Node name="xUnitTesting.Controller" expanded="True">
+                <Node name="CustomerControllerTest" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.backend PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
